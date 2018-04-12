@@ -1,0 +1,221 @@
+body{
+    background-color:#fff;
+    background-image: url(../img/gplaypattern.png);
+    background-repeat: inherit;
+    margin:0;
+    padding:0;
+    font-family: 'Exo 2', sans-serif;
+    color: #237892;
+}
+.navigation{
+    font-family: 'Permanent Marker', cursive;
+}
+a{
+    text-decoration-style:none;
+}
+.maintitle{
+    background-color: #237892;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:4rem;
+    color:#fff;
+    text-shadow:4px 4px 2px rgba(150, 150, 150, 1);
+    letter-spacing:2px;
+}
+.row{
+    margin:0;
+    padding:0;
+}
+.main{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.btnForDetails{
+    display:block;
+}
+.btnDetailsTitle{
+    display:block;
+    margin-top:15px;
+    padding-top:5px;
+    padding-bottom:5px;
+    transition-duration: 0.6s;
+    font-size:24px;
+    font-weight: bold;
+    background-color:#237892;
+    letter-spacing: 1px;
+    color:#fff;
+}
+.btnDetailsTitle:hover{
+    transition-duration: 0.6s;
+    background-color:#273d44;
+    color:#fff;
+    letter-spacing:2px;
+    border-radius:5px;
+}
+.moreDetailsTitle{
+    margin-top:10px;
+    display:block;
+    color:#237892;
+    font-weight:bold;
+}
+.contestStageOne{
+    display:inline-block;
+    background-image:url(../img/imgst1.jpg);
+    background-size: cover;
+    height:300px;
+    transition-duration: 0.3s;
+    padding:0;
+}
+.contestStageOne:hover{
+    -webkit-box-shadow: inset 0px 0px 45px 10px rgba(35, 120, 146, 0.90);
+    -moz-box-shadow: inset 0px 0px 45px 10px rgba(35, 120, 146, 0.90);
+    box-shadow: inset 0px 0px 45px 10px rgba(35, 120, 146, 0.90);
+    border-radius:5px;
+    transition-duration: 0.3s;
+    letter-spacing: 1px;
+}
+.contestStageTwo{
+    display:inline-block;
+    background-image:url(../img/imgst2.jpg);
+    background-size: cover;
+    height:300px;
+    transition-duration: 0.3s;
+    padding:0;
+}
+.contestStageTwo:hover{
+    -webkit-box-shadow: inset 0px 0px 45px 10px rgba(35, 120, 146, 0.90);
+    -moz-box-shadow: inset 0px 0px 45px 10px rgba(35, 120, 146, 0.90);
+    box-shadow: inset 0px 0px 45px 10px rgba(35, 120, 146, 0.90);
+    border-radius:5px;
+    transition-duration: 0.3s;
+    letter-spacing: 1px;
+}
+.contestStageThree{
+    display:inline-block;
+    background-image:url(../img/imgst3.jpg);
+    background-size: cover;
+    height:300px;
+    transition-duration: 0.3s;
+    padding:0;
+}
+.contestStageThree:hover{
+    -webkit-box-shadow: inset 0px 0px 45px 10px rgba(35, 120, 146, 0.90);
+    -moz-box-shadow: inset 0px 0px 45px 10px rgba(35, 120, 146, 0.90);
+    box-shadow: inset 0px 0px 45px 10px rgba(35, 120, 146, 0.90);
+    border-radius:5px;
+    transition-duration: 0.3s;
+    letter-spacing: 1px;
+}
+.btnBody{
+    text-decoration:none !important;
+    align-items:center;
+    width:100%;
+}
+.contestStageP{
+    display:inline-block;
+    margin-top:240px;
+    font-size:18px;
+    width:100%;
+    background-color:rgba(35, 120, 146, 0.70);
+    color:#fff;
+   
+}
+.textConent{
+    margin:0;
+    padding:0;
+    display:inline-block;
+    text-align: justify;
+}
+.textConent span{
+    display:inline-block;
+}
+.sponsors{
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 2px;
+    font-weight:bold;
+    margin-top:30px;
+}
+.sponsors h3{
+    font-size:2.5rem;
+}
+.sponsorLogo img{
+    margin-top:10px;
+    border: 1px solid rgba(156, 185, 194, 0.855);
+    border-radius: 8px;
+}
+.smMedia{
+    width:30px;
+    height:30px;
+    color:#237892;
+    margin-left:0;
+    margin-right:0;
+    margin-top:20px;
+    padding:0;
+    transition-duration: 0.3s;
+}
+.smMedia:hover{
+    background-color:rgba(156, 185, 194, 0.855);
+    border-radius:5px;
+    padding:0;
+    transition-duration: 0.3s;
+}
+.smFacebook{
+    margin-left:10px;
+    margin-right:10px;
+}
+.smInstagram{
+    margin-left:10px;
+    margin-right:10px;
+}
+.smTwitter{
+    margin-left:10px;
+    margin-right:10px;
+}
+.footerConetnt{
+    margin-top:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.footerConetnt span{
+    font-weight:bold;
+}
+
+@media only screen and (max-width: 990px) {
+    .contestStageOne{
+        height:350px;
+    }
+    .contestStageTwo{
+        margin-top:20px;
+        height:350px;
+    }
+    .contestStageThree{
+        margin-top:20px;
+        height:350px;
+    }
+    .btnDetailsTitle{
+        margin-top:35px;
+    }
+    .contestStageP{
+        margin-top:270px;
+    }
+}
+@media only screen and (max-width: 790px) {
+    .maintitle{
+        font-size:2rem;
+    }
+    .contestStageOne{
+        height:400px;
+    }
+    .contestStageTwo{
+        height:400px;
+    }
+    .contestStageThree{
+        height:400px;
+    }
+    .btnDetailsTitle{
+        margin-top:0px;
+    }
+    .contestStageP{
+        margin-top:320px;
+    }
+}
